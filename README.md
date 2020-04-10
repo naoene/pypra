@@ -7,5 +7,5 @@
 ## install python
 
 ```cmd
-conda env create --file environments.yml
+conda env create --file environment.yml
 ```
