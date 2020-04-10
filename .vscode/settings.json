@@ -1,0 +1,4 @@
+{
+    "python.condaPath": "~\\anaconda3\\Scripts\\conda.exe",
+    "python.pythonPath": "~\\anaconda3\\envs\\pypra\\python.exe"
+}
