@@ -10,4 +10,4 @@ class Post(models.Model):
     date_posted = models.DateTimeField(defalt=timezone)
 
     def __str__(self):
-       return self.title 
+        return self.title 
