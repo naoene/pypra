@@ -1,11 +1,11 @@
-(% load static %)
+{% load static %}
 
-(% for post in posts %)
-((post.title ))
-((post.author ))
-((post.date_posted))
-((post.content))
-(% endfor %)
+{% for post in posts %}
+{{ post.title }}
+{{ post.author }}
+{{ post.date_posted }}
+{{ post.content }}
+{% endfor %}
 
 <!DOCTYPE html>
 <html>
